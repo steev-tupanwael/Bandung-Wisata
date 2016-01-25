@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C70A5A111C55AD7400BFD11E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70A5A101C55AD7400BFD11E /* AppDelegate.swift */; };
+		C70A5A131C55AD7400BFD11E /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70A5A121C55AD7400BFD11E /* MasterViewController.swift */; };
+		C70A5A151C55AD7400BFD11E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70A5A141C55AD7400BFD11E /* DetailViewController.swift */; };
+		C70A5A181C55AD7400BFD11E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C70A5A161C55AD7400BFD11E /* Main.storyboard */; };
+		C70A5A1A1C55AD7400BFD11E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C70A5A191C55AD7400BFD11E /* Assets.xcassets */; };
+		C70A5A1D1C55AD7400BFD11E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C70A5A1B1C55AD7400BFD11E /* LaunchScreen.storyboard */; };
+		C70A5A281C55AD7500BFD11E /* Bandung_WisataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70A5A271C55AD7500BFD11E /* Bandung_WisataTests.swift */; };
+		C70A5A331C55AD7500BFD11E /* Bandung_WisataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70A5A321C55AD7500BFD11E /* Bandung_WisataUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C70A5A241C55AD7500BFD11E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C70A5A051C55AD7300BFD11E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C70A5A0C1C55AD7300BFD11E;
+			remoteInfo = "Bandung Wisata";
+		};
+		C70A5A2F1C55AD7500BFD11E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C70A5A051C55AD7300BFD11E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C70A5A0C1C55AD7300BFD11E;
+			remoteInfo = "Bandung Wisata";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C70A5A0D1C55AD7300BFD11E /* Bandung Wisata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bandung Wisata.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C70A5A101C55AD7400BFD11E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C70A5A121C55AD7400BFD11E /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		C70A5A141C55AD7400BFD11E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C70A5A171C55AD7400BFD11E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C70A5A191C55AD7400BFD11E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C70A5A1C1C55AD7400BFD11E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C70A5A1E1C55AD7400BFD11E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C70A5A231C55AD7500BFD11E /* Bandung WisataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bandung WisataTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C70A5A271C55AD7500BFD11E /* Bandung_WisataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bandung_WisataTests.swift; sourceTree = "<group>"; };
+		C70A5A291C55AD7500BFD11E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C70A5A2E1C55AD7500BFD11E /* Bandung WisataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bandung WisataUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C70A5A321C55AD7500BFD11E /* Bandung_WisataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bandung_WisataUITests.swift; sourceTree = "<group>"; };
+		C70A5A341C55AD7500BFD11E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C70A5A0A1C55AD7300BFD11E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C70A5A201C55AD7500BFD11E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C70A5A2B1C55AD7500BFD11E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C70A5A041C55AD7200BFD11E = {
+			isa = PBXGroup;
+			children = (
+				C70A5A0F1C55AD7400BFD11E /* Bandung Wisata */,
+				C70A5A261C55AD7500BFD11E /* Bandung WisataTests */,
+				C70A5A311C55AD7500BFD11E /* Bandung WisataUITests */,
+				C70A5A0E1C55AD7300BFD11E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C70A5A0E1C55AD7300BFD11E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C70A5A0D1C55AD7300BFD11E /* Bandung Wisata.app */,
+				C70A5A231C55AD7500BFD11E /* Bandung WisataTests.xctest */,
+				C70A5A2E1C55AD7500BFD11E /* Bandung WisataUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C70A5A0F1C55AD7400BFD11E /* Bandung Wisata */ = {
+			isa = PBXGroup;
+			children = (
+				C70A5A101C55AD7400BFD11E /* AppDelegate.swift */,
+				C70A5A121C55AD7400BFD11E /* MasterViewController.swift */,
+				C70A5A141C55AD7400BFD11E /* DetailViewController.swift */,
+				C70A5A161C55AD7400BFD11E /* Main.storyboard */,
+				C70A5A191C55AD7400BFD11E /* Assets.xcassets */,
+				C70A5A1B1C55AD7400BFD11E /* LaunchScreen.storyboard */,
+				C70A5A1E1C55AD7400BFD11E /* Info.plist */,
+			);
+			path = "Bandung Wisata";
+			sourceTree = "<group>";
+		};
+		C70A5A261C55AD7500BFD11E /* Bandung WisataTests */ = {
+			isa = PBXGroup;
+			children = (
+				C70A5A271C55AD7500BFD11E /* Bandung_WisataTests.swift */,
+				C70A5A291C55AD7500BFD11E /* Info.plist */,
+			);
+			path = "Bandung WisataTests";
+			sourceTree = "<group>";
+		};
+		C70A5A311C55AD7500BFD11E /* Bandung WisataUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C70A5A321C55AD7500BFD11E /* Bandung_WisataUITests.swift */,
+				C70A5A341C55AD7500BFD11E /* Info.plist */,
+			);
+			path = "Bandung WisataUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C70A5A0C1C55AD7300BFD11E /* Bandung Wisata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C70A5A371C55AD7500BFD11E /* Build configuration list for PBXNativeTarget "Bandung Wisata" */;
+			buildPhases = (
+				C70A5A091C55AD7300BFD11E /* Sources */,
+				C70A5A0A1C55AD7300BFD11E /* Frameworks */,
+				C70A5A0B1C55AD7300BFD11E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bandung Wisata";
+			productName = "Bandung Wisata";
+			productReference = C70A5A0D1C55AD7300BFD11E /* Bandung Wisata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C70A5A221C55AD7500BFD11E /* Bandung WisataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C70A5A3A1C55AD7500BFD11E /* Build configuration list for PBXNativeTarget "Bandung WisataTests" */;
+			buildPhases = (
+				C70A5A1F1C55AD7500BFD11E /* Sources */,
+				C70A5A201C55AD7500BFD11E /* Frameworks */,
+				C70A5A211C55AD7500BFD11E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C70A5A251C55AD7500BFD11E /* PBXTargetDependency */,
+			);
+			name = "Bandung WisataTests";
+			productName = "Bandung WisataTests";
+			productReference = C70A5A231C55AD7500BFD11E /* Bandung WisataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C70A5A2D1C55AD7500BFD11E /* Bandung WisataUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C70A5A3D1C55AD7500BFD11E /* Build configuration list for PBXNativeTarget "Bandung WisataUITests" */;
+			buildPhases = (
+				C70A5A2A1C55AD7500BFD11E /* Sources */,
+				C70A5A2B1C55AD7500BFD11E /* Frameworks */,
+				C70A5A2C1C55AD7500BFD11E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C70A5A301C55AD7500BFD11E /* PBXTargetDependency */,
+			);
+			name = "Bandung WisataUITests";
+			productName = "Bandung WisataUITests";
+			productReference = C70A5A2E1C55AD7500BFD11E /* Bandung WisataUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C70A5A051C55AD7300BFD11E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Kota Bandung";
+				TargetAttributes = {
+					C70A5A0C1C55AD7300BFD11E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C70A5A221C55AD7500BFD11E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C70A5A0C1C55AD7300BFD11E;
+					};
+					C70A5A2D1C55AD7500BFD11E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C70A5A0C1C55AD7300BFD11E;
+					};
+				};
+			};
+			buildConfigurationList = C70A5A081C55AD7300BFD11E /* Build configuration list for PBXProject "Bandung Wisata" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C70A5A041C55AD7200BFD11E;
+			productRefGroup = C70A5A0E1C55AD7300BFD11E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C70A5A0C1C55AD7300BFD11E /* Bandung Wisata */,
+				C70A5A221C55AD7500BFD11E /* Bandung WisataTests */,
+				C70A5A2D1C55AD7500BFD11E /* Bandung WisataUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C70A5A0B1C55AD7300BFD11E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C70A5A1D1C55AD7400BFD11E /* LaunchScreen.storyboard in Resources */,
+				C70A5A1A1C55AD7400BFD11E /* Assets.xcassets in Resources */,
+				C70A5A181C55AD7400BFD11E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C70A5A211C55AD7500BFD11E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C70A5A2C1C55AD7500BFD11E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C70A5A091C55AD7300BFD11E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C70A5A151C55AD7400BFD11E /* DetailViewController.swift in Sources */,
+				C70A5A131C55AD7400BFD11E /* MasterViewController.swift in Sources */,
+				C70A5A111C55AD7400BFD11E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C70A5A1F1C55AD7500BFD11E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C70A5A281C55AD7500BFD11E /* Bandung_WisataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C70A5A2A1C55AD7500BFD11E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C70A5A331C55AD7500BFD11E /* Bandung_WisataUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C70A5A251C55AD7500BFD11E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C70A5A0C1C55AD7300BFD11E /* Bandung Wisata */;
+			targetProxy = C70A5A241C55AD7500BFD11E /* PBXContainerItemProxy */;
+		};
+		C70A5A301C55AD7500BFD11E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C70A5A0C1C55AD7300BFD11E /* Bandung Wisata */;
+			targetProxy = C70A5A2F1C55AD7500BFD11E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C70A5A161C55AD7400BFD11E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C70A5A171C55AD7400BFD11E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C70A5A1B1C55AD7400BFD11E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C70A5A1C1C55AD7400BFD11E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C70A5A351C55AD7500BFD11E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C70A5A361C55AD7500BFD11E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C70A5A381C55AD7500BFD11E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bandung Wisata/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bandungtourism.Bandung-Wisata";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C70A5A391C55AD7500BFD11E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bandung Wisata/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bandungtourism.Bandung-Wisata";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C70A5A3B1C55AD7500BFD11E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Bandung WisataTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bandungtourism.Bandung-WisataTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bandung Wisata.app/Bandung Wisata";
+			};
+			name = Debug;
+		};
+		C70A5A3C1C55AD7500BFD11E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Bandung WisataTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bandungtourism.Bandung-WisataTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bandung Wisata.app/Bandung Wisata";
+			};
+			name = Release;
+		};
+		C70A5A3E1C55AD7500BFD11E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Bandung WisataUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bandungtourism.Bandung-WisataUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Bandung Wisata";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C70A5A3F1C55AD7500BFD11E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Bandung WisataUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bandungtourism.Bandung-WisataUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Bandung Wisata";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C70A5A081C55AD7300BFD11E /* Build configuration list for PBXProject "Bandung Wisata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C70A5A351C55AD7500BFD11E /* Debug */,
+				C70A5A361C55AD7500BFD11E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C70A5A371C55AD7500BFD11E /* Build configuration list for PBXNativeTarget "Bandung Wisata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C70A5A381C55AD7500BFD11E /* Debug */,
+				C70A5A391C55AD7500BFD11E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C70A5A3A1C55AD7500BFD11E /* Build configuration list for PBXNativeTarget "Bandung WisataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C70A5A3B1C55AD7500BFD11E /* Debug */,
+				C70A5A3C1C55AD7500BFD11E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C70A5A3D1C55AD7500BFD11E /* Build configuration list for PBXNativeTarget "Bandung WisataUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C70A5A3E1C55AD7500BFD11E /* Debug */,
+				C70A5A3F1C55AD7500BFD11E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C70A5A051C55AD7300BFD11E /* Project object */;
+}
