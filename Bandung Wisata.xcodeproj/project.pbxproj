@@ -15,6 +15,19 @@
 		C70A5A1D1C55AD7400BFD11E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C70A5A1B1C55AD7400BFD11E /* LaunchScreen.storyboard */; };
 		C70A5A281C55AD7500BFD11E /* Bandung_WisataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70A5A271C55AD7500BFD11E /* Bandung_WisataTests.swift */; };
 		C70A5A331C55AD7500BFD11E /* Bandung_WisataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70A5A321C55AD7500BFD11E /* Bandung_WisataUITests.swift */; };
+		C70A5A4D1C55B4C200BFD11E /* bandungwisata_2208.png in Resources */ = {isa = PBXBuildFile; fileRef = C70A5A401C55B4C200BFD11E /* bandungwisata_2208.png */; };
+		C70A5A4E1C55B4C200BFD11E /* Gedung_Sate_1441246269.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C70A5A411C55B4C200BFD11E /* Gedung_Sate_1441246269.jpg */; };
+		C70A5A4F1C55B4C200BFD11E /* Gn._Tangkuban_Parahu_1442307606.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C70A5A421C55B4C200BFD11E /* Gn._Tangkuban_Parahu_1442307606.jpg */; };
+		C70A5A501C55B4C200BFD11E /* Hutan_Djuanda_1441246406.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C70A5A431C55B4C200BFD11E /* Hutan_Djuanda_1441246406.jpg */; };
+		C70A5A511C55B4C200BFD11E /* Kawah_Putih_1442308440.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C70A5A441C55B4C200BFD11E /* Kawah_Putih_1442308440.jpg */; };
+		C70A5A521C55B4C200BFD11E /* Kawasan_Pasar_Baru_Bandung_1441246489.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C70A5A451C55B4C200BFD11E /* Kawasan_Pasar_Baru_Bandung_1441246489.jpg */; };
+		C70A5A531C55B4C200BFD11E /* Kebun_Binatang_Bandung_1441246578.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C70A5A461C55B4C200BFD11E /* Kebun_Binatang_Bandung_1441246578.jpg */; };
+		C70A5A541C55B4C200BFD11E /* Museum_Geologi_1441246825.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C70A5A471C55B4C200BFD11E /* Museum_Geologi_1441246825.jpg */; };
+		C70A5A551C55B4C200BFD11E /* Museum_Konperensi_Asia_Afrika_1441246885.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C70A5A481C55B4C200BFD11E /* Museum_Konperensi_Asia_Afrika_1441246885.jpg */; };
+		C70A5A561C55B4C200BFD11E /* Saung_Angklung_Udjo_1442307240.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C70A5A491C55B4C200BFD11E /* Saung_Angklung_Udjo_1442307240.jpg */; };
+		C70A5A571C55B4C200BFD11E /* Sentra_Jeans_Cihampelas_1441246935.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C70A5A4A1C55B4C200BFD11E /* Sentra_Jeans_Cihampelas_1441246935.jpg */; };
+		C70A5A581C55B4C200BFD11E /* Sentra_Sepatu_Cibaduyut_1441246980.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C70A5A4B1C55B4C200BFD11E /* Sentra_Sepatu_Cibaduyut_1441246980.jpg */; };
+		C70A5A591C55B4C200BFD11E /* Taman_Lalu_Lintas_1441247059.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C70A5A4C1C55B4C200BFD11E /* Taman_Lalu_Lintas_1441247059.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +62,19 @@
 		C70A5A2E1C55AD7500BFD11E /* Bandung WisataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bandung WisataUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C70A5A321C55AD7500BFD11E /* Bandung_WisataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bandung_WisataUITests.swift; sourceTree = "<group>"; };
 		C70A5A341C55AD7500BFD11E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C70A5A401C55B4C200BFD11E /* bandungwisata_2208.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bandungwisata_2208.png; sourceTree = "<group>"; };
+		C70A5A411C55B4C200BFD11E /* Gedung_Sate_1441246269.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gedung_Sate_1441246269.jpg; sourceTree = "<group>"; };
+		C70A5A421C55B4C200BFD11E /* Gn._Tangkuban_Parahu_1442307606.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gn._Tangkuban_Parahu_1442307606.jpg; sourceTree = "<group>"; };
+		C70A5A431C55B4C200BFD11E /* Hutan_Djuanda_1441246406.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hutan_Djuanda_1441246406.jpg; sourceTree = "<group>"; };
+		C70A5A441C55B4C200BFD11E /* Kawah_Putih_1442308440.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kawah_Putih_1442308440.jpg; sourceTree = "<group>"; };
+		C70A5A451C55B4C200BFD11E /* Kawasan_Pasar_Baru_Bandung_1441246489.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kawasan_Pasar_Baru_Bandung_1441246489.jpg; sourceTree = "<group>"; };
+		C70A5A461C55B4C200BFD11E /* Kebun_Binatang_Bandung_1441246578.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kebun_Binatang_Bandung_1441246578.jpg; sourceTree = "<group>"; };
+		C70A5A471C55B4C200BFD11E /* Museum_Geologi_1441246825.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Museum_Geologi_1441246825.jpg; sourceTree = "<group>"; };
+		C70A5A481C55B4C200BFD11E /* Museum_Konperensi_Asia_Afrika_1441246885.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Museum_Konperensi_Asia_Afrika_1441246885.jpg; sourceTree = "<group>"; };
+		C70A5A491C55B4C200BFD11E /* Saung_Angklung_Udjo_1442307240.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Saung_Angklung_Udjo_1442307240.jpg; sourceTree = "<group>"; };
+		C70A5A4A1C55B4C200BFD11E /* Sentra_Jeans_Cihampelas_1441246935.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sentra_Jeans_Cihampelas_1441246935.jpg; sourceTree = "<group>"; };
+		C70A5A4B1C55B4C200BFD11E /* Sentra_Sepatu_Cibaduyut_1441246980.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sentra_Sepatu_Cibaduyut_1441246980.jpg; sourceTree = "<group>"; };
+		C70A5A4C1C55B4C200BFD11E /* Taman_Lalu_Lintas_1441247059.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Taman_Lalu_Lintas_1441247059.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +129,19 @@
 				C70A5A121C55AD7400BFD11E /* MasterViewController.swift */,
 				C70A5A141C55AD7400BFD11E /* DetailViewController.swift */,
 				C70A5A161C55AD7400BFD11E /* Main.storyboard */,
+				C70A5A401C55B4C200BFD11E /* bandungwisata_2208.png */,
+				C70A5A411C55B4C200BFD11E /* Gedung_Sate_1441246269.jpg */,
+				C70A5A421C55B4C200BFD11E /* Gn._Tangkuban_Parahu_1442307606.jpg */,
+				C70A5A431C55B4C200BFD11E /* Hutan_Djuanda_1441246406.jpg */,
+				C70A5A441C55B4C200BFD11E /* Kawah_Putih_1442308440.jpg */,
+				C70A5A451C55B4C200BFD11E /* Kawasan_Pasar_Baru_Bandung_1441246489.jpg */,
+				C70A5A461C55B4C200BFD11E /* Kebun_Binatang_Bandung_1441246578.jpg */,
+				C70A5A471C55B4C200BFD11E /* Museum_Geologi_1441246825.jpg */,
+				C70A5A481C55B4C200BFD11E /* Museum_Konperensi_Asia_Afrika_1441246885.jpg */,
+				C70A5A491C55B4C200BFD11E /* Saung_Angklung_Udjo_1442307240.jpg */,
+				C70A5A4A1C55B4C200BFD11E /* Sentra_Jeans_Cihampelas_1441246935.jpg */,
+				C70A5A4B1C55B4C200BFD11E /* Sentra_Sepatu_Cibaduyut_1441246980.jpg */,
+				C70A5A4C1C55B4C200BFD11E /* Taman_Lalu_Lintas_1441247059.jpg */,
 				C70A5A191C55AD7400BFD11E /* Assets.xcassets */,
 				C70A5A1B1C55AD7400BFD11E /* LaunchScreen.storyboard */,
 				C70A5A1E1C55AD7400BFD11E /* Info.plist */,
@@ -232,7 +271,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C70A5A501C55B4C200BFD11E /* Hutan_Djuanda_1441246406.jpg in Resources */,
+				C70A5A531C55B4C200BFD11E /* Kebun_Binatang_Bandung_1441246578.jpg in Resources */,
+				C70A5A561C55B4C200BFD11E /* Saung_Angklung_Udjo_1442307240.jpg in Resources */,
+				C70A5A541C55B4C200BFD11E /* Museum_Geologi_1441246825.jpg in Resources */,
+				C70A5A571C55B4C200BFD11E /* Sentra_Jeans_Cihampelas_1441246935.jpg in Resources */,
+				C70A5A4D1C55B4C200BFD11E /* bandungwisata_2208.png in Resources */,
+				C70A5A591C55B4C200BFD11E /* Taman_Lalu_Lintas_1441247059.jpg in Resources */,
+				C70A5A551C55B4C200BFD11E /* Museum_Konperensi_Asia_Afrika_1441246885.jpg in Resources */,
+				C70A5A4F1C55B4C200BFD11E /* Gn._Tangkuban_Parahu_1442307606.jpg in Resources */,
+				C70A5A511C55B4C200BFD11E /* Kawah_Putih_1442308440.jpg in Resources */,
+				C70A5A521C55B4C200BFD11E /* Kawasan_Pasar_Baru_Bandung_1441246489.jpg in Resources */,
+				C70A5A581C55B4C200BFD11E /* Sentra_Sepatu_Cibaduyut_1441246980.jpg in Resources */,
 				C70A5A1D1C55AD7400BFD11E /* LaunchScreen.storyboard in Resources */,
+				C70A5A4E1C55B4C200BFD11E /* Gedung_Sate_1441246269.jpg in Resources */,
 				C70A5A1A1C55AD7400BFD11E /* Assets.xcassets in Resources */,
 				C70A5A181C55AD7400BFD11E /* Main.storyboard in Resources */,
 			);

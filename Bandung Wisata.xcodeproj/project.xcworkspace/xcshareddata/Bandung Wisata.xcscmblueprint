@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3F3C41C705BE0C477FAE4E15B63EF8BCF09B2EDD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3F3C41C705BE0C477FAE4E15B63EF8BCF09B2EDD" : 0,
+    "A1666FDC7143A48B1B991FC11E9E86251877E504" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E39A8973-A53B-41B8-8CEE-21B892178E32",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3F3C41C705BE0C477FAE4E15B63EF8BCF09B2EDD" : "Bandung%20Wisata\/",
+    "A1666FDC7143A48B1B991FC11E9E86251877E504" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Bandung Wisata",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Bandung Wisata.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/steev-tupanwael\/Bandung-Wisata.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3F3C41C705BE0C477FAE4E15B63EF8BCF09B2EDD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/github.com\/steev-tupanwael\/swift_bandungwisata.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A1666FDC7143A48B1B991FC11E9E86251877E504"
+    }
+  ]
+}
