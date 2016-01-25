@@ -28,6 +28,7 @@ class DetailViewController: UIViewController {
         if let detail = self.detailItem {
             if let labeljudul = self.judul_label {
                 labeljudul.text = detail.description
+                labeljudul.numberOfLines = 0
             }
         }
         if let labeldesk = self.deskripsi_label {
