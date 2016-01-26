@@ -28,6 +28,9 @@
 		C70A5A571C55B4C200BFD11E /* Sentra_Jeans_Cihampelas_1441246935.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C70A5A4A1C55B4C200BFD11E /* Sentra_Jeans_Cihampelas_1441246935.jpg */; };
 		C70A5A581C55B4C200BFD11E /* Sentra_Sepatu_Cibaduyut_1441246980.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C70A5A4B1C55B4C200BFD11E /* Sentra_Sepatu_Cibaduyut_1441246980.jpg */; };
 		C70A5A591C55B4C200BFD11E /* Taman_Lalu_Lintas_1441247059.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C70A5A4C1C55B4C200BFD11E /* Taman_Lalu_Lintas_1441247059.jpg */; };
+		C7D6FCE11C57340A007AD29A /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D6FCE01C57340A007AD29A /* SwiftyJSON.swift */; };
+		C7D6FCE31C573481007AD29A /* jsonFile.json in Resources */ = {isa = PBXBuildFile; fileRef = C7D6FCE21C573480007AD29A /* jsonFile.json */; };
+		C7D6FCE51C574D69007AD29A /* DetailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D6FCE41C574D68007AD29A /* DetailData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +78,9 @@
 		C70A5A4A1C55B4C200BFD11E /* Sentra_Jeans_Cihampelas_1441246935.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sentra_Jeans_Cihampelas_1441246935.jpg; sourceTree = "<group>"; };
 		C70A5A4B1C55B4C200BFD11E /* Sentra_Sepatu_Cibaduyut_1441246980.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sentra_Sepatu_Cibaduyut_1441246980.jpg; sourceTree = "<group>"; };
 		C70A5A4C1C55B4C200BFD11E /* Taman_Lalu_Lintas_1441247059.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Taman_Lalu_Lintas_1441247059.jpg; sourceTree = "<group>"; };
+		C7D6FCE01C57340A007AD29A /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		C7D6FCE21C573480007AD29A /* jsonFile.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jsonFile.json; sourceTree = "<group>"; };
+		C7D6FCE41C574D68007AD29A /* DetailData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +131,7 @@
 		C70A5A0F1C55AD7400BFD11E /* Bandung Wisata */ = {
 			isa = PBXGroup;
 			children = (
+				C7D6FCE01C57340A007AD29A /* SwiftyJSON.swift */,
 				C70A5A101C55AD7400BFD11E /* AppDelegate.swift */,
 				C70A5A121C55AD7400BFD11E /* MasterViewController.swift */,
 				C70A5A141C55AD7400BFD11E /* DetailViewController.swift */,
@@ -145,6 +152,8 @@
 				C70A5A191C55AD7400BFD11E /* Assets.xcassets */,
 				C70A5A1B1C55AD7400BFD11E /* LaunchScreen.storyboard */,
 				C70A5A1E1C55AD7400BFD11E /* Info.plist */,
+				C7D6FCE21C573480007AD29A /* jsonFile.json */,
+				C7D6FCE41C574D68007AD29A /* DetailData.swift */,
 			);
 			path = "Bandung Wisata";
 			sourceTree = "<group>";
@@ -275,6 +284,7 @@
 				C70A5A531C55B4C200BFD11E /* Kebun_Binatang_Bandung_1441246578.jpg in Resources */,
 				C70A5A561C55B4C200BFD11E /* Saung_Angklung_Udjo_1442307240.jpg in Resources */,
 				C70A5A541C55B4C200BFD11E /* Museum_Geologi_1441246825.jpg in Resources */,
+				C7D6FCE31C573481007AD29A /* jsonFile.json in Resources */,
 				C70A5A571C55B4C200BFD11E /* Sentra_Jeans_Cihampelas_1441246935.jpg in Resources */,
 				C70A5A4D1C55B4C200BFD11E /* bandungwisata_2208.png in Resources */,
 				C70A5A591C55B4C200BFD11E /* Taman_Lalu_Lintas_1441247059.jpg in Resources */,
@@ -313,7 +323,9 @@
 			files = (
 				C70A5A151C55AD7400BFD11E /* DetailViewController.swift in Sources */,
 				C70A5A131C55AD7400BFD11E /* MasterViewController.swift in Sources */,
+				C7D6FCE51C574D69007AD29A /* DetailData.swift in Sources */,
 				C70A5A111C55AD7400BFD11E /* AppDelegate.swift in Sources */,
+				C7D6FCE11C57340A007AD29A /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +468,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Bandung Wisata/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bandungtourism.Bandung-Wisata";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -467,6 +480,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Bandung Wisata/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bandungtourism.Bandung-Wisata";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -540,6 +554,7 @@
 				C70A5A391C55AD7500BFD11E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C70A5A3A1C55AD7500BFD11E /* Build configuration list for PBXNativeTarget "Bandung WisataTests" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +563,7 @@
 				C70A5A3C1C55AD7500BFD11E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C70A5A3D1C55AD7500BFD11E /* Build configuration list for PBXNativeTarget "Bandung WisataUITests" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +572,7 @@
 				C70A5A3F1C55AD7500BFD11E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
