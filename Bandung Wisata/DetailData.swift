@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct DetailData {
+class DetailData {
     var detjudul : String
     var detsubjudul : String
     var detalamat : String
@@ -16,4 +16,14 @@ struct DetailData {
     var detdeskripsi : String
     var detgambar : String
     var detlokasikoor : String
+    
+    init(detjudul:String, detsubjudul:String, detalamat:String, detkontak:String, detdeskripsi:String, detgambar:String, detlokasikoor:String) {
+        self.detjudul = detjudul
+        self.detsubjudul = detsubjudul
+        self.detalamat = detalamat
+        self.detkontak = detkontak
+        self.detdeskripsi = detdeskripsi
+        self.detgambar = detgambar
+        self.detlokasikoor = detlokasikoor
+    }
 }

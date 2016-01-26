@@ -11,7 +11,7 @@ import UIKit
 class MasterViewController: UITableViewController {
 
     var detailViewController: DetailViewController? = nil
-    var detailArray = [DetailData?]()
+    var detailArray = [DetailData]()
     var numberofRows = 0
     var dataIdArray = [String]()
     var dataJudulArray = [String]()
@@ -41,7 +41,8 @@ class MasterViewController: UITableViewController {
             dataJudulArray.append(judul)
             dataSubjudulArray.append(subjudul)
             
-            detailArray.append(DetailData(detjudul: judul, detsubjudul: subjudul, detalamat: alamat, detkontak: kontak, detdeskripsi: deskripsi, detgambar: gambar, detlokasikoor: lokasikoor))
+            let dataObj = DetailData(detjudul: judul, detsubjudul: subjudul, detalamat: alamat, detkontak: kontak, detdeskripsi: deskripsi, detgambar: gambar, detlokasikoor: lokasikoor)
+            detailArray.append(dataObj)
         }
         
     }
@@ -49,6 +50,10 @@ class MasterViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        if let split = self.splitViewController {
+            let controllers = split.viewControllers
+            self.detailViewController = (controllers[controllers.count-1] as! UINavigationController).topViewController as? DetailViewController
+        }
         
         parseJSON()
     }
@@ -56,6 +61,7 @@ class MasterViewController: UITableViewController {
     override func viewWillAppear(animated: Bool) {
         self.clearsSelectionOnViewWillAppear = self.splitViewController!.collapsed
         super.viewWillAppear(animated)
+        navigationItem.title = "Bandung Wisata"
     }
 
     override func didReceiveMemoryWarning() {
@@ -68,14 +74,14 @@ class MasterViewController: UITableViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "showDetail" {
             if let indexPath = self.tableView.indexPathForSelectedRow {
-                var detailArray2 : DetailData
-                detailArray2 = detailArray[indexPath.row]!
+                let data = detailArray[indexPath.row]
                 let controller = (segue.destinationViewController as! UINavigationController).topViewController as! DetailViewController
-                controller.detailItem = detailArray2.detjudul
+                controller.detailItem = data
                 controller.navigationItem.leftBarButtonItem = self.splitViewController?.displayModeButtonItem()
                 controller.navigationItem.leftItemsSupplementBackButton = true
             }
         }
+        navigationItem.title = ""
     }
 
     // MARK: - Table View
